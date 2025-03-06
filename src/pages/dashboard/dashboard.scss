@@ -1,0 +1,117 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+  &__filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  // Для добавления прокрутки
+  &__table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+  }
+
+  .inactive {
+    background-color: #f8d7da;
+  }
+
+  .edit-btn,
+  .toggle-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .toggle-btn {
+    background-color: #ffc107;
+  }
+
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  &__add-book {
+    margin-bottom: 20px;
+    border: 1px #007bff solid;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  &__link {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  &__footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .dashboard__table-wrapper {
+      min-width: 100%;
+    }
+
+    .dashboard__table {
+      font-size: 14px;
+    }
+
+    .dashboard__select {
+      font-size: 14px;
+    }
+
+    .edit-btn,
+    .toggle-btn,
+    .delete-btn {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+    &__add-book {
+      width: 100%;
+    }
+  }
+}

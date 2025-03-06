@@ -1,4 +1,4 @@
-# Reporting System
+# BOOKS_APP
 
 Project was bootstrapped with [ReactJS](https://react.dev/) and [Vite](https://vitejs.dev/).
 
@@ -11,16 +11,16 @@ Project was bootstrapped with [ReactJS](https://react.dev/) and [Vite](https://v
 1. Clone the repository (allowed with SSH only):
 
    ```bash
-   https://github.com/YevhenHovorukha/TEST_WEATHER
+   https://github.com/YevhenHovorukha/BOOKS_APP.git
    ```
 
 2. Install dependencies:
    ```bash
    npm install
    ```
-3. Provide environment variables into `.env` (see `.env.example` file).
-   Register on https://openweathermap.org/ , get API KEY in profile
-   API URL:https://api.openweathermap.org/data/2.5
+3. Run the server (app will be run on [http://localhost:8000](http://localhost:8000)):
+   npm run server
+
 4. Run the project (app will be run on [http://localhost:3004](http://localhost:3004)):
    ```bash
    npm run dev
