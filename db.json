@@ -21,16 +21,6 @@
       "isActive": true
     },
     {
-      "id": "5",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "category": "Romance",
-      "isbn": "9781503290563",
-      "createdAt": "25 July 2022, 2:30PM",
-      "modifiedAt": "--",
-      "isActive": true
-    },
-    {
       "id": "6",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
@@ -78,7 +68,7 @@
       "isbn": "9780374528379",
       "createdAt": "1 January 2022, 4:45PM",
       "modifiedAt": "--",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "12",
@@ -98,7 +88,7 @@
       "isbn": "9780060850524",
       "createdAt": "3 March 2021, 8:00AM",
       "modifiedAt": "--",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "14",
@@ -118,7 +108,7 @@
       "isbn": "9780192833835",
       "createdAt": "25 May 2022, 3:30PM",
       "modifiedAt": "--",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "16",
@@ -127,16 +117,6 @@
       "category": "Psychological",
       "isbn": "9780140449136",
       "createdAt": "30 June 2021, 10:10AM",
-      "modifiedAt": "--",
-      "isActive": true
-    },
-    {
-      "id": "17",
-      "title": "Les Misérables",
-      "author": "Victor Hugo",
-      "category": "Historical",
-      "isbn": "9780451419439",
-      "createdAt": "12 July 2021, 12:00PM",
       "modifiedAt": "--",
       "isActive": true
     },

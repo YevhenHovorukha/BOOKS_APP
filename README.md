@@ -19,7 +19,10 @@ Project was bootstrapped with [ReactJS](https://react.dev/) and [Vite](https://v
    npm install
    ```
 3. Run the server (app will be run on [http://localhost:8000](http://localhost:8000)):
+
+   ```bash
    npm run server
+   ```
 
 4. Run the project (app will be run on [http://localhost:3004](http://localhost:3004)):
    ```bash
